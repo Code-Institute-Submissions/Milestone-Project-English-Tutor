@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
+
+
+------------------------------------Colours
+
+/*.full-title {
+    background-color: #d0ece293;
+}
+
+.name {
+    color: rgb(64, 71, 75);
+}
+
+#nav span {
+    color: rgb(131, 144, 150);
+}*/
+
+.li-home-colour {
+    background-color: rgb(175,238,238);
+}
+
+.li-me-colour {
+    background-color: rgb(105, 180, 180);
+}
+
+.li-classes-colour {
+    background-color: rgb(66, 126, 126);
+}
+
+.li-reviews-colour {
+    background-color: rgb(38, 87, 87);
+}
+
+.li-links-colour {
+    background-color: rgb(12, 53, 53);
+}
+
+.li-contact-colour {
+    background-color: rgb(3, 39, 39);
+}
