@@ -18,7 +18,7 @@ body {
 
 #nav li {
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 17px;
     text-align: center;
     line-height: 45px;
     padding: 0;
@@ -81,7 +81,7 @@ h5 {
 .about-me-text {
     text-align: center;
     font-size: 20px;
-    margin: 0 10px;
+    margin: 30px 55px;
     padding-bottom: 30px;
 }
 
@@ -95,16 +95,62 @@ h5 {
 
 
 
-/*-----------------------------------------reviews*/
+
+/*-----------------------------------------links*/
+
+.link-columns {
+    max-width: 1300px;
+    margin: 20px auto 0 auto;
+    line-height: 50px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between
+}
 
 
+.link-area {
+    box-sizing: border-box;
+    border-color: rgb(64, 71, 75)
+    padding: 10px;
+    margin-bottom: 30px;
+    width: 22%;
+}
 
+.podcasts {
+    flex: 1;
+}
+
+
+.blogs {
+    flex: 1;
+}
+
+
+.video {
+    flex: 1;
+}
+
+
+.links {
+    flex: 1;
+}
+
+/*-----------------------------------------contacts*/
+
+/*-----------------------------------------footer*/
+
+.s-links a span {
+    font-size: 50px;
+    margin: 50px;
+}
+
+li i {
+    height: 50px;
+}
 
 /*------------------------------------Colours*/
 
-#id nbar {
-    background-color: green;
-}
+
 
 .full-title {
     background-color: #d0ece293;
@@ -119,7 +165,7 @@ h5 {
 }
 
 #nav span {
-    color: rgb(131, 144, 150);
+    color: rgb(88, 97, 102);
 }
 
 .li-colour-home {
@@ -146,9 +192,26 @@ h5 {
     background-color: rgb(3, 39, 39);
 }
 
+/*----------------------------------------linear-gradient from w3schools.com*/
+.wrapper-me {
+    background-image: linear-gradient(to bottom , rgb(255,255,255), rgb(105, 180, 180));
+}
 
+.wrapper-classes {
+    background-image: linear-gradient(to bottom , rgb(255,255,255), rgb(66, 126, 126));
+}
 
+.wrapper-reviews {
+    background-image: linear-gradient(to bottom , rgb(255,255,255), rgb(38, 87, 87));
+}
 
+.wrapper-links {
+    background-image: linear-gradient(to bottom , rgb(255,255,255), rgb(12, 53, 53));
+}
+
+.wrapper-contact {
+    background-image: linear-gradient(to bottom , rgb(255,255,255), rgb(3, 39, 39));
+}
 
 
 

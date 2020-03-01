@@ -21,12 +21,12 @@
         <div class="row no-gutters">
             <div class="col ">
                 <ul id="nav" class="list-inline mcontainer">
-                     <li class="col-4 col-lg-2 list-inline-item li-colour-home"><a href="index.html"><span>Home</span></a></li>
-                     <li class="col-4 col-lg-2 list-inline-item li-colour-me"><a href="me"><span>About Me</span></a></li>
-                    <li class="col-4 col-lg-2 list-inline-item li-colour-classes"><a href="classes"><span>Classes/Price</span></a></li>
-                    <li class="col-4 col-lg-2 list-inline-item li-colour-reviews"><a href="reviews"><span>Reviews</span></a></li>
-                    <li class="col-4 col-lg-2 list-inline-item li-colour-links"><a href="links"><span>Useful links</span></a></li>
-                    <li class="col-4 col-lg-2 list-inline-item li-colour-contacts"><a href="contact"><span>Contact</span></a></li>
+                     <li class="col-4 col-lg-2 list-inline-item li-colour-home mitem"><a href="index.html"><span>Home</span></a></li>
+                     <li class="col-4 col-lg-2 list-inline-item li-colour-me mitem"><a href="me"><span>About Me</span></a></li>
+                    <li class="col-4 col-lg-2 list-inline-item li-colour-classes mitem"><a href="classes"><span>Classes/Price</span></a></li>
+                    <li class="col-4 col-lg-2 list-inline-item li-colour-reviews mitem"><a href="reviews"><span>Reviews</span></a></li>
+                    <li class="col-4 col-lg-2 list-inline-item li-colour-links mitem"><a href="links"><span>Useful links</span></a></li>
+                    <li class="col-4 col-lg-2 list-inline-item li-colour-contacts mitem"><a href="contact"><span>Contact</span></a></li>
                 </ul>
             </div>
         </div>
@@ -50,7 +50,7 @@
 
 
 <!--Section About Me containing image and text-->
-    <section class="container">
+    <section class="container-wrapper wrapper-me">
         <div class="row">
             <div class="col-12">
                 <h2 class="section-title">About Me:</h2>
@@ -79,7 +79,7 @@ For the past 7 years I have been living in France and for the last 5 I have been
 
 
 <!--Section Classes and prices, Bootstrap grid code copied and expanded-->
-    <section>
+    <section class="container-wrapper wrapper-classes">
         <div class="row">
             <div class="col-12">
                 <h2 class="section-title"> Classes / Prices:</h2>
@@ -106,19 +106,20 @@ For the past 7 years I have been living in France and for the last 5 I have been
         <p class="offer-text">Book Club: Level A1/A2 and B1/B2</p>
         <p class="offer-price">30 euro for 6 weeks</p>
     </div>
-    <hr>
+    </div>
+    </div>
     </section>
 <!--classes end-->
 
 <!--section Reviews, carousel fading code copied from Bootstrap with addition of data intervals-->
-<section class="reviews-section">
+<section class="container-wrapper wrapper-reviews">
     <div class="row">
             <div class="col-12">
                 <h2 class="section-title"> Reviews:</h2>
             </div>
         </div>
-
-<section class="container wrapper-reviews"
+</section>
+<!--<section class="container wrapper-reviews"
     <div class="row" id="reviews">
     <div class="col-12">
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
@@ -155,30 +156,56 @@ For the past 7 years I have been living in France and for the last 5 I have been
      <hr>
     </section>
 
-    </section>
+    </section>-->
 <!--Reviews end-->
 
 
 <!--section links (blogs, youtube videos and websites)-->
-<section>
+<section class="container-wrapper wrapper-links">
     <div class="row">
             <div class="col-12">
                 <h2 class="section-title">Links:</h2>
             </div>
     </div>
-    <div class="row"
-    <div class="container podcasts col-3">Podcasts</div>
-    <div class="container blogs col-3">Blogs</div>
-    <div class="container video col-3">Videos</div>
-    <div class="container links col-3">Use Links</div>
+
+
+    <div class="link-columns">
+    <div class="podcasts link-area"><h3>Podcasts</h3>
+    <div>https://www.bbc.co.uk/podcasts?q=english    BBC Podcasts - english</div>
+    <div>https://learnenglish.britishcouncil.org/general-english/podcasts    Podcasts | British Council</div>
+    <div>https://www.podcastsinenglish.com/  Learn English and listen to English with podcasts in English</div>
+    <div></div>
+    <div></div>
+    </div>
+    <div class="blogs link-area"><h3>Blogs</h3>
+    <div>https://www.fluentu.com/blog/    FluentU Language Learning</div>
+    <div>https://blog.esl-languages.com/    ESL Stories - The Language Travel Blog | ESL Education</div>
+    <div>https://radiolingua.com/category/blog/   Blog Archives - Coffee Break Languages</div>
+    <div>https://www.englishblog.com/     The English Blog</div><div></div>
+
+    </div>
+    <div class="video link-area"><h3>Videos</h3>
+    <div>https://learnenglish.britishcouncil.org/general-english/video-zone    Video zone | British Council</div>
+    <div>https://www.youtube.com/channel/UCrbSazjHtYVjpJdm0aZMTGQ     National Geographic Learning - ELT</div>
+    <div>https://www.youtube.com/user/bbclearningenglish    BBC Learning English</div>
+
+    </div>
+    <div class="links link-area"><h3>Useful Links</h3>
+    <div> https://rm.coe.int/CoERMPublicCommonSearchServices/DisplayDCTMContent?documentId=090000168045bb52   CEFR Scale - English level</div>
+    <div>https://www.cambridgeenglish.org/test-your-english/    Test your English | Cambridge English</div>
+    <div>https://www.etsglobal.org/pl/en/programme/toeic-tests   Discover the TOEIC® Programme!</div>
+    </div>
     </div>
     <hr>
     </section>
     
 <!--Links end-->
 
+
+
+
 <!--contact section with button to modal form-->
-<section class="contact">
+<section class="container-wrapper wrapper-contact">
     <div class="row">
             <div class="col-12">
                 <h2 class="section-title">Contact Me:</h2>
@@ -189,19 +216,19 @@ For the past 7 years I have been living in France and for the last 5 I have been
 <!--footer with social links-->
 <footer>
     <div class="container">
-    <div class="row">
-        <div class="col-12">
-            <ul class=" list-inline s-links">
-                <li class="linkedin list-inline-item">
-                    <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i><span>Linkedin</span>
+    <div class="row no-gutters">
+        <div class="col">
+            <ul class="list-inline">
+                <li class="list-inline-item s-link">
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i><span>Linkedin</span>
                     </a>
                 </li>
-                <li class="facebook list-inline-item">
-                    <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i><span>Facebook</span>
+                <li class="list-inline-item">
+                    <a href="https://www.facebook.com" target="-blank"><i class="fa fa-facebook-square" aria-hidden="true"></i><span>Facebook</span>
                     </a>
                 </li>
-                <li class="twitter list-inline-item">
-                    <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i><span>Twitter</span>
+                <li class="list-inline-item">
+                    <a href="https://twitter.com" target="-blank"><i class="fa fa-twitter-square" aria-hidden="true"></i><span>Twitter</span>
                     </a>
                 </li>
              </ul>
