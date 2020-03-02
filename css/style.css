@@ -24,7 +24,6 @@ body {
     text-align: center;
     line-height: 45px;
     padding: 0;
-    position: sticky;
 }
 
 
@@ -70,9 +69,6 @@ h5 {
 
 .round-circle {
     position: absolute;
-        margin: 18px auto;
-    max-width: 18%;
-    height: auto;
 }
 
 .section-title {
@@ -214,11 +210,11 @@ tr td {
 }
 
 #nav span {
-    color: rgb(88, 97, 102);
+    color: rgb(229, 233, 235);
 }
 
 .li-colour-home {
-    background-color: rgb(175,238,238);
+    background-color: rgb(156, 214, 214);
 }
 
 .li-colour-me {
