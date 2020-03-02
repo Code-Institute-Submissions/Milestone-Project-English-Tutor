@@ -68,6 +68,10 @@ h5 {
 
 /*----------------------------------------------------about me*/
 
+.round-circle {
+    position: absolute;
+}
+
 .section-title {
     font-family: 'Roboto', sans-serif;
     font-size: 35px;
@@ -79,11 +83,9 @@ h5 {
     margin: 18px auto;
     max-width: 18%;
     height: auto;
-}
-
-img {
     position: relative;
 }
+
 
 .about-me-text {
     text-align: center;
