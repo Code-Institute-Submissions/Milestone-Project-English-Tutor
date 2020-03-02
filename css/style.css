@@ -8,6 +8,7 @@ body {
 /*---------------------------------------------header nav title, bootstrap css for image*/
 
 
+
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
@@ -23,6 +24,7 @@ body {
     text-align: center;
     line-height: 45px;
     padding: 0;
+    position: sticky;
 }
 
 
@@ -77,6 +79,7 @@ h5 {
     margin: 18px auto;
     height: 120px;
     width: 120px;
+    position: relative;
 }
 
 .about-me-text {
