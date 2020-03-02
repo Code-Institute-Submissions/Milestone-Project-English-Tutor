@@ -5,12 +5,13 @@ body {
     margin: 0;
     padding: 0;
 }
-/*-----------------------------------------header nav title, bootstrap css for image*/
+/*---------------------------------------------header nav title, bootstrap css for image*/
 
 
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
+
 .mcontainer {
     font-size: 0;
     margin-bottom: 0;
@@ -63,7 +64,7 @@ h5 {
     float: right;
 }
 
-/*-----------------------------------------about me*/
+/*----------------------------------------------------about me*/
 
 .section-title {
     font-family: 'Roboto', sans-serif;
@@ -85,7 +86,35 @@ h5 {
     padding-bottom: 30px;
 }
 
-/*-----------------------------------------reviews*/
+/*------------------------------------------------------classes*/
+
+
+
+.table {
+    margin: 40px auto 65px;
+    border: 3px solid #fff;
+}
+
+tr th {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+/*------located code on css-tricks.com*/
+.cploc {
+  position: relative;
+  top: 25%;
+  left: 25%;
+}
+/*
+.jumbotron {
+    position: relative;
+    width: 60%;
+    height: 20%;
+}
+*/
+
+/*----------------------------------------------------------reviews*/
 
 .class-grid {
     border: 5px;
@@ -96,7 +125,7 @@ h5 {
 
 
 
-/*-----------------------------------------links*/
+/*------------------------------------------------------------links*/
 
 .link-columns {
     max-width: 1300px;
@@ -135,9 +164,9 @@ h5 {
     flex: 1;
 }
 
-/*-----------------------------------------contacts*/
+/*---------------------------------------------------contacts*/
 
-/*-----------------------------------------footer*/
+/*-----------------------------------------------------footer*/
 
 .s-links a span {
     font-size: 50px;
@@ -148,8 +177,15 @@ li i {
     height: 50px;
 }
 
-/*------------------------------------Colours*/
+/*----------------------------------------------------Colours*/
 
+.table {
+    background: rgb(66, 126, 126);
+}
+
+tr td {
+    color: #fff;
+}
 
 
 .full-title {
@@ -212,6 +248,3 @@ li i {
 .wrapper-contact {
     background-image: linear-gradient(to bottom , rgb(255,255,255), rgb(3, 39, 39));
 }
-
-
-
