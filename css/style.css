@@ -81,7 +81,7 @@ h5 {
 .jbimage {
     margin: 18px auto;
     max-width: 18%;
-    height: auto;
+    height: 50px;
     position: relative;
 }
 
@@ -95,12 +95,27 @@ h5 {
 
 /*------------------------------------------------------classes*/
 
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    margin-bottom: 35px;
+    max-width: 65%;
+    padding: 20px;
+  }
+
+
 .table td {
-border-left: 1px solid #dee2e6;
+    border-left: 1px solid #dee2e6;
+}
+
+
+.table thead th {
+    border-left: 1px solid #dee2e6;
 }
 
 .table {
-    margin: 40px auto 65px;
+    align: center;
     border: 3px solid #fff;
 }
 
@@ -109,19 +124,8 @@ tr th {
     text-align: center;
 }
 
-/*------located code on css-tricks.com*/
-.cploc {
-  position: relative;
-  top: 25%;
-  left: 25%;
-}
-/*
-.jumbotron {
-    position: relative;
-    width: 60%;
-    height: 20%;
-}
-*/
+
+
 
 /*----------------------------------------------------------reviews*/
 
@@ -130,63 +134,109 @@ tr th {
     border-color: rgb(3, 39, 39);
 }
 
+/*.carousel-item {
+    margin: 70px 20px;
+}*/
+
+/*----------------from Bootstrap*/
+#reviews {
+    background: url("../images/books1.jpg");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    min-height: 400px;
+    width: auto;
+    margin-bottom: 50px;
+    opacity: 0.5;
+}
 
 
+.review-text {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(7, 6, 6);
+    font-style: italic;
+    position: relative;
+}
 
+
+.carousel {
+    position: static;
+    color: transparent;
+}
+
+.carousel-item {
+    display: flex;
+    padding-top: 80px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: none;
+}
+p .review-text {
+    padding: 200px 40px;
+}
 
 /*------------------------------------------------------------links*/
 
-.link-columns {
+/*.link-columns {
     max-width: 1300px;
     margin: 20px auto 0 auto;
     line-height: 50px;
     padding: 20px 50px;
-    display: flex;
     justify-content: space-between
 }
 
 
 .link-area {
     box-sizing: border-box;
-    border-color: rgb(64, 71, 75)
+    border-color: rgb(64, 71, 75);
     padding: 10px;
     margin-bottom: 30px;
     width: 22%;
+}*/
+
+.link-area {
+    display: block;
 }
 
-.podcasts {
-    flex: 1;
-}
-
-
-.blogs {
-    flex: 1;
-}
-
-
-.video {
-    flex: 1;
-}
-
-
-.links {
-    flex: 1;
+.wrapper-links {
+    padding: 0;
+    width: 100%;
 }
 
 /*---------------------------------------------------contacts*/
 
 /*-----------------------------------------------------footer*/
 
-.s-links a span {
-    font-size: 50px;
-    margin: 50px;
+footer {
+    height: 120px;
+    background-color: rgb(3, 39, 39);
 }
 
-li i {
-    height: 50px;
+.social {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.social li {
+    display: inline;
+}
+
+.social i {
+    font-size: 250%;
+    color: rgb(229, 233, 235);
 }
 
 /*----------------------------------------------------Colours*/
+
+.jumbotron {
+    background-color: rgb(156, 214, 214);
+}
 
 .table {
     background: rgb(66, 126, 126);
