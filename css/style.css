@@ -134,7 +134,46 @@ tr th {
     text-align: center;
 }
 
+.jumbotron {
+    width:60%;
+    height: auto;
+    margin: 0 auto;
+    animation-name: flash;
+    animation-duration: 1.4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    border-radius: 0.3em;
+    padding: 0;
+    margin: 20px auto 45px;
+}
 
+.jumbotron h3 {
+    width: auto;
+}
+
+.jumbotron h4 {
+    width: auto;
+}
+
+
+/*------------------------------------------Flashing text from Stackoverflow, SupperSam*/
+
+.alert {
+    animation-name: flash;
+    animation-duration: 1.4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    text-align: center;
+}
+
+@keyframes flash {
+    from {color: rgb(18, 56, 40);}
+    to {color: rgb(18, 230, 46);}
+}
 
 
 /*----------------------------------------------------------reviews*/
@@ -257,7 +296,7 @@ footer {
 /*----------------------------------------------------Colours*/
 
 .jumbotron {
-    background-color: rgb(156, 214, 214);
+    background-color: transparent;
 }
 
 .table {
