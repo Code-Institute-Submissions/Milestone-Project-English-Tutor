@@ -9,7 +9,6 @@ body {
 /*---------------------------------------------header nav title, bootstrap css for image*/
 
 
-
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
@@ -67,6 +66,10 @@ h5 {
 }
 
 /*----------------------------------------------------about me*/
+
+.wrapper-me {
+    padding-bottom: 25px;
+}
 
 .round-circle {
     position: absolute;
@@ -140,6 +143,9 @@ tr th {
 }*/
 
 /*----------------from Bootstrap*/
+
+
+
 #reviews {
     background: url("../images/books1.jpg");
     background-size: cover;
@@ -159,7 +165,7 @@ tr th {
     font-size: 20px;
     font-weight: 500;
     text-align: center;
-    color: rgb(7, 6, 6);
+    color: rgb(0,0,0);
     font-style: italic;
     position: relative;
 }
@@ -182,33 +188,34 @@ p .review-text {
     padding: 200px 40px;
 }
 
+
 /*------------------------------------------------------------links*/
 
-/*.link-columns {
-    max-width: 1300px;
-    margin: 20px auto 0 auto;
-    line-height: 50px;
-    padding: 20px 50px;
-    justify-content: space-between
-}
 
 
-.link-area {
-    box-sizing: border-box;
-    border-color: rgb(64, 71, 75);
-    padding: 10px;
-    margin-bottom: 30px;
-    width: 22%;
-}*/
-
-.link-area {
-    display: block;
+.link-area a {
+    color: rgb(229, 233, 235);
+    line-height: 20px;
+    padding: 0;
+    width: 50%;
+    min-height: 150px;
+    text-align: center;
+    font-size: 15px;
+    margin: 0 5px 10px 5px;
 }
 
 .wrapper-links {
     padding: 0;
     width: 100%;
+    padding-bottom: 45px;
 }
+
+
+ol ul li {
+    line-height: 40px;
+}
+
+
 
 /*---------------------------------------------------contacts*/
 
