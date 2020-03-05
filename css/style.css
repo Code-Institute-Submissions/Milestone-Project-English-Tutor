@@ -194,14 +194,29 @@ p .review-text {
 
 
 .link-area a {
-    color: rgb(229, 233, 235);
+    color: rgb(64, 71, 75);
     line-height: 20px;
     padding: 0;
     width: 50%;
     min-height: 150px;
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
     margin: 0 5px 10px 5px;
+}
+
+.link-area li {
+    line-height: 27px;
+    margin: 0:
+
+}
+
+.link-area ul {
+    background-color: rgb(219, 224, 224);
+    border: 1.5px solid rgb(64, 71, 75);
+    border-radius: 8%;
+    height: auto;
+    width: auto;
+    margin: 0;
 }
 
 .wrapper-links {
@@ -209,13 +224,6 @@ p .review-text {
     width: 100%;
     padding-bottom: 45px;
 }
-
-
-ol ul li {
-    line-height: 40px;
-}
-
-
 
 /*---------------------------------------------------contacts*/
 
