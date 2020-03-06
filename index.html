@@ -131,9 +131,9 @@
 			</div>
 		</div>
 		<div class="jumbotron">
-			<h3 class="alert alert-light" role="alert"><b>Coming Soon:</b><br><span><h3>English Book Club</h3><h4>Level A1/A2 and B1/B2</h4></span>
+			<p class="alert alert-light" role="alert"><h3><b>Coming Soon:</b></h3><h4>English Book Club<br>Level A1/A2 and B1/B2</h4></p>
 		</div>
-		<hr>
+
 
 	</section>
 	<!--classes end-->
@@ -210,7 +210,7 @@
 
 		<div class="row">
 			<div class="col-12">
-				<h2 class="section-title">Links:</h2>
+				<h2 class="section-title">References:</h2>
 			</div>
 		</div>
 
@@ -270,7 +270,7 @@
 
 
 
-	<!--contact section with button to modal form-->
+	<!--contact section with button to modal form, modal and form taken from bootstrap-->
 	<section class="container-wrapper wrapper-contact">
 		<div class="row">
 			<div class="col-12">
@@ -278,92 +278,110 @@
 			</div>
 		</div>
 
+         <p class="contact-statement"><h3>If you would like to get intouch to discuss more about your requirements please click on the button below</h3></p>
+        
+
         <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Launch demo modal
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#enquirymodal">
+  Get In Touch
 </button>
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="enquirymodal" tabindex="-1" role="dialog" aria-labelledby="enquirymodalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="Contact Form" id="exampleModalLabel">Modal title</h5>
+        <h3 class="Contact Form" id="enquirymodalLabel">Thank you for your interest in my classes.</h3>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
    
-<form>
+<form action="#" method="post">
   <div class="form-group row">
-    <label for="fname" class="col-sm-2">First Name:</label>
-    <div class="col-sm-10">
-      <input type="text" class="form" id="fname">
+    <label for="fname" class="col-sm-4">First Name:</label>
+    <div class="col-8">
+      <input type="text" class="form" id="fname" required>
     </div>
   </div>
   <div class="form-group row">
-    <label for="lname" class="col-sm-2">Last Name:</label>
-    <div class="col-sm-10">
-      <input type="text" class="form" id="lname">
+    <label for="lname" class="col-sm-4">Last Name:</label>
+    <div class="col-8">
+      <input type="text" class="form" id="lname" required>
     </div>
   </div>
 <div class="form-group row">
-    <label for="email" class="col-sm-2">Email Address:</label>
-    <div class="col-sm-10">
-      <input type="email" class="form" id="email">
+    <label for="email" class="col-sm-4">Email Address:</label>
+    <div class="col-8">
+      <input type="email" class="form" id="email" required>
     </div>
   </div>
-<div class="form-group row">
-    <label for="class" class="col-sm-2">Last Name</label>
-    <div class="col-sm-10">
-      <input type="checkbox" class="form" id="class">
-    </div>
-  </div>
-    <div class="row">
-      <label class="col-form-label col-sm-2 pt-0">Radios</label>
-      <div class="col-sm-10">
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-          <label class="form-check-label" for="gridRadios1">
-            First radio
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-          <label class="form-check-label" for="gridRadios2">
-            Second radio
-          </label>
-        </div>
-        <div class="form-check disabled">
-          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
-          <label class="form-check-label" for="gridRadios3">
-            Third disabled radio
-          </label>
-        </div>
-      </div>
-    </div>
   
   <div class="form-group row">
-    <div class="col-sm-2">Checkbox</div>
-    <div class="col-sm-10">
+    <div class="col-sm-4">Class Type:</div><br>
+    <div class="col-sm-6">
       <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="gridCheck1">
-        <label class="form-check-label" for="gridCheck1">
-          Example checkbox
+        <input class="form-check-input form-check-inline" type="checkbox" id="individual">
+        <label class="form-check-label" for="class-type">
+          Individual
         </label>
       </div>
+     <div class="form-check">
+        <input class="form-check-input form-check-inline" type="checkbox" id="group">
+        <label class="form-check-label" for="class-type">
+          Group
+        </label>
+      </div>
+           <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="skype">
+        <label class="form-check-label" for="class-type">
+          Skype
+        </label>
+      </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="phone">
+        <label class="form-check-label" for="class-type">
+          Phone
+        </label>
+      </div>
+
     </div>
   </div>
-  <div class="form-group row">
-    <div class="col-sm-10">
-      <button type="submit" class="btn btn-primary">Sign in</button>
+
+    <div class="form-group row">
+    <div class="col-sm-4">Current Level:</div><br>
+    <div class="col-sm-6">
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="beginner">
+        <label class="form-check-label" for="level">
+          Beginner (A1 / A2)
+        </label>
+      </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="intermediate">
+        <label class="form-check-label" for="level">
+          Intermediate (B1 / B2)
+        </label>
+      </div>
+            <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="advanced">
+        <label class="form-check-label" for="level">
+          Advanced (C1 / C2)
+        </label>
+      </div>
+         
     </div>
   </div>
+
+<div class="form-group">
+    <label for="exampleFormControlTextarea1">Additional Information:</label>
+    <textarea class="form-control" id="information" rows="3"></textarea>
+  </div>
+
 </form>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-primary">Submit</button>
       </div>
     </div>
   </div>

@@ -107,9 +107,7 @@ h5 {
 
 
 table.center {
-    margin-left:auto; 
-    margin-right:auto;
-    margin-bottom: 35px;
+    margin: 30px auto 30px;
     max-width: 65%;
     padding: 20px;
   }
@@ -137,7 +135,6 @@ tr th {
 .jumbotron {
     width:60%;
     height: auto;
-    margin: 0 auto;
     animation-name: flash;
     animation-duration: 1.4s;
     animation-timing-function: linear;
@@ -145,18 +142,24 @@ tr th {
     animation-direction: alternate;
     animation-play-state: running;
     border-radius: 0.3em;
-    padding: 0;
-    margin: 20px auto 45px;
+    margin: 0 auto 45px;
+    padding-top: 30px;
 }
 
 .jumbotron h3 {
     width: auto;
+    text-align: center;
+    font-size: 40px;
 }
 
 .jumbotron h4 {
-    width: auto;
+    text-align: center;
 }
 
+.alert-light {
+    background-color: transparent;
+    border-color: transparent;
+}
 
 /*------------------------------------------Flashing text from Stackoverflow, SupperSam*/
 
@@ -183,13 +186,9 @@ tr th {
     border-color: rgb(3, 39, 39);
 }
 
-/*.carousel-item {
-    margin: 70px 20px;
-}*/
+
 
 /*----------------from Bootstrap*/
-
-
 
 #reviews {
     background: url("../images/books1.jpg");
@@ -251,14 +250,14 @@ p .review-text {
 
 .link-area li {
     line-height: 27px;
-    margin: 0:
-
+    margin: 0;
+    font-size: 20px;
 }
 
 .link-area ul {
     background-color: rgb(219, 224, 224);
     border: 1.5px solid rgb(64, 71, 75);
-    border-radius: 8%;
+    border-radius: 0.8em;
     height: auto;
     width: auto;
     margin: 0;
@@ -271,6 +270,42 @@ p .review-text {
 }
 
 /*---------------------------------------------------contacts*/
+
+button.btn.btn-primary {
+    color: rgb(64, 71, 75);
+    background-color: rgb(105, 180, 180);
+    border-color: rgb(66, 126, 126);
+    box-shadow: 0 0 0 0.1rem rgba(146, 241, 226, 0.4);
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 0.8em;
+    margin: 20px 20% 35px;
+    width: 60%;
+    height: 25%;
+}
+
+div.modal-footer {
+    display: content;
+}
+
+.modal-header {
+    text-align: center;
+}
+
+.btn-section {
+    
+}
+
+.wrapper-contact h3 {
+    width: 60%;
+    font-size: 20px;
+    color: rgb(25, 26, 27);
+    margin: 30px auto 50px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
 
 /*-----------------------------------------------------footer*/
 
@@ -325,7 +360,7 @@ tr td {
 }
 
 .li-colour-home {
-    background-color: rgb(156, 214, 214);
+    background-color: rgb(151, 221, 221);
 }
 
 .li-colour-me {
