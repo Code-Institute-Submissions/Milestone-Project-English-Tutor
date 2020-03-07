@@ -7,7 +7,8 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<script src="https://use.fontawesome.com/06e258eaa7.js"></script>
+	<!--<script src="https://use.fontawesome.com/06e258eaa7.js"></script>-->
+    <script src="https://kit.fontawesome.com/f51253fd7a.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="css/style.css" type="text/css" />
 	<title>Jeanette-English Tutor</title>
 </head>
@@ -23,17 +24,17 @@
 			<div class="col">
 				<ul id="nav" class="list-inline mcontainer fixed-top">
 					<li class="col-4 col-lg-2 list-inline-item li-colour-home mitem"><a
-							href="index.html"><span>Home</span></a></li>
+							href="#index.html"><span>Home</span></a></li>
 					<li class="col-4 col-lg-2 list-inline-item li-colour-me mitem"><a
-							href="me"><span>About Me</span></a></li>
+							href="#me"><span>About Me</span></a></li>
 					<li class="col-4 col-lg-2 list-inline-item li-colour-classes mitem"><a
-							href="classes"><span>Classes/Price</span></a></li>
+							href="#classes"><span>Classes/Price</span></a></li>
 					<li class="col-4 col-lg-2 list-inline-item li-colour-reviews mitem"><a
-							href="reviews"><span>Reviews</span></a></li>
+							href="#reviews"><span>Reviews</span></a></li>
 					<li class="col-4 col-lg-2 list-inline-item li-colour-links mitem"><a
-							href="links"><span>References</span></a></li>
+							href="#references"><span>References</span></a></li>
 					<li class="col-4 col-lg-2 list-inline-item li-colour-contacts mitem"><a
-							href="contact"><span>Contact</span></a></li>
+							href="#contact"><span>Contact</span></a></li>
 				</ul>
 			</div>
 		</div>
@@ -45,7 +46,7 @@
 		<div class="container-fluid bg-image-books">
 			<div class="row">
 				<div class="col-8">
-					<p class="name">Jeanette Buckley</p>
+					<p id="index.html" class="name">Jeanette Buckley</p>
 					<p class="title">English Language Tutor</p>
 					<div class="col-8 quote-area d-none d-sm-block">
 						<p class="quote">
@@ -63,7 +64,7 @@
 	<section class="container-wrapper wrapper-me">
 		<div class="row">
 			<div class="col-12">
-				<h2 class="section-title">About Me:</h2>
+				<p id="me" class="section-title">About Me:</p>
 			</div>
 		</div>
 
@@ -94,7 +95,7 @@
 	<section class="container-wrapper wrapper-classes">
 		<div class="row">
 			<div class="col-12">
-				<h2 class="section-title"> Classes / Prices:</h2>
+				<p id="classes" class="section-title"> Classes / Prices:</p>
 			</div>
 		</div>
 
@@ -131,7 +132,10 @@
 			</div>
 		</div>
 		<div class="jumbotron">
-			<p class="alert alert-light" role="alert"><h3><b>Coming Soon:</b></h3><h4>English Book Club<br>Level A1/A2 and B1/B2</h4></p>
+			<p class="alert alert-light" role="alert">
+				<h3><b>Coming Soon:</b></h3>
+				<h4>English Book Club<br>Level A1/A2 and B1/B2</h4>
+			</p>
 		</div>
 
 
@@ -144,47 +148,59 @@
 	<section class="container-wrapper wrapper-reviews">
 		<div class="row">
 			<div class="col-12">
-				<h2 class="section-title"> Reviews:</h2>
+				<p id="reviews" class="section-title"> Reviews:</p>
 			</div>
 		</div>
 
 		<div class="container">
-			<div class="row " id="reviews">
+			<div class="row " id="review">
 				<div class="col-12">
 					<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
 						<div class="carousel-inner">
 							<div class="carousel-item data-interval=10 active">
 								<!--<img src="./images/class1.jpg" class="d-block w-100 review-image" alt="class1">-->
 								<p class="review-text">Jeanette est une personne très sympathique, elle nous fait
-									découvrir l'anglais un art ludique et efficace. J'adore.
+									découvrir l'anglais un art ludique et efficace. J'adore.<br>
 
-									Fabienne</p>
+									-Fabienne</p>
 							</div>
 							<div class="carousel-item data-interval=10">
 								<!--<img src="./images/class2.jpg" class="d-block w-100" alt="class2">-->
-								<p class="review-text"></p>
+								<p class="review-text">Très satisfait des cours de Jeanette. Très sympathiques et
+									dynamiques. Très bien.<br>
+
+-Denis</p>
 							</div>
 							<div class="carousel-item data-interval=10">
 								<!--<img src="./images/class2.jpg" class="d-block w-100" alt="class2">-->
-								<p class="review-text"></p>
+								<p class="review-text">Cours interactifs, dynamiques, ambiance bon enfant.<br>
+
+-Yolande</p>
+							</div>
+							<div class="carousel-item data-interval=10">
+								<!--<img src="./images/class2.jpg" class="d-block w-100" alt="class2">-->
+								<p class="review-text">Voilà 2 ans que je suis les cours d’anglais avec Jeanette, 2 ans
+									de plaisir à être présente en petit groupe, sans pression.
+									Un réel lieu de rencontre agréable, ou l’on peut apprendre à son rythme.
+									Jeanette est très sympathique, patiente et un très bon professeur. Je nous le
+									recommande.<br>
+
+-Nathalie</p>
 							</div>
 							<div class="carousel-item data-interval=10">
 								<!--<img src="./images/class2.jpg" class="d-block w-100" alt="class2">-->
 								<p class="review-text">Jeanette est une professeur très investie auprès de ses élèves.
 									Elle sait nous expliquer les cours avec beaucoup d’intérêts. Le fait qu’elle ne
-									parle qu'en anglais nous fait bien progresser.
+									parle qu'en anglais nous fait bien progresser.<br>
 
-									Agnes</p>
+									-Agnes</p>
 							</div>
 							<div class="carousel-item data-interval=10">
 								<!--<img src="./images/class2.jpg" class="d-block w-100" alt="class2">-->
-								<p class="review-text">Jeanette est une professeur très investie auprès de ses élèves.
-									Elle sait nous expliquer les cours avec beaucoup d’intérêts. Le fait qu’elle ne
-									parle qu'en anglais nous fait bien progresser.
+								<p class="review-text">Agréable, très spontanée.<br>
 
-									Agnes</p>
+-Patrice</p>
 							</div>
-
 						</div>
 						<a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
 							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -210,58 +226,67 @@
 
 		<div class="row">
 			<div class="col-12">
-				<h2 class="section-title">References:</h2>
+				<p id="references" class="section-title">References:</p>
 			</div>
 		</div>
 
-     <div class="container">​
-<div class="row no-gutters">​
-<div class="col">​
-<ol id="list-links" class="list-inline links-container">
+		<div class="container">​
+			<div class="row no-gutters">​
+				<div class="col">​
+					<ol id="list-links" class="list-inline links-container">
 
-    <div class="col-12 col-lg-6 list-inline-item link-area">​
-                      <ul class="link-area-individual">​
-                        <h3>Podcasts</h3>​
-                        <li><a href="https://www.bbc.co.uk/podcasts?q=english" target="_blank">BBC Podcasts - English</a></li>​
-                        <li><a href="https://learnenglish.britishcouncil.org/general-english/podcasts" target="_blank">Podcasts | British Council</a></li>​
-                        <li><a href="https://www.podcastsinenglish.com/" target="_blank">Learn and listen to English with podcasts</a></li>​
-                    </ul>​
-    ​</div>
-                ​
-    <div class="col-12 col-lg-6 list-inline-item link-area">​
-                    <ul>​
-                         <h3>Blogs</h3>​
-                        <li><a href="https://www.fluentu.com/blog/" target="_blank">FluentU Language Learning</a></li>​
-                        <li><a href="https://radiolingua.com/category/blog/" target="_blank">Blog Archives - Coffee Break Languages</a></li>​
-                        <li><a href="https://www.englishblog.com/" target="_blank">The English Blog</a></li>​
-                    </ul>​
-    </div>​
-​
-​
-    <div class="col-12 col-lg-6 list-inline-item link-area">​
-                    <ul>​
-                        <h3>Videos</h3>​
-                        <li><a href="https://learnenglish.britishcouncil.org/general-english/video-zone" target="_blank">Video zone | British Council</a></li>​
-                        <li><a href="https://www.youtube.com/channel/UCrbSazjHtYVjpJdm0aZMTGQ" target="_blank">National Geographic Learning - ELT</a></li>​
-                        <li><a href="https://www.youtube.com/user/bbclearningenglish" target="_blank">BBC Learning English</a></li>​
-                    </ul>​
-    </div>​
-​
-​
-    <div class="col-12 col-lg-6 list-inline-item link-area">​
-                    <ul>​
-                        <h3>References</h3>​
-                        <li><a href="https://rm.coe.int/CoERMPublicCommonSearchServices/DisplayDCTMContent?documentId=090000168045bb52" target="_blank">CEFR Scale - English level</a></li>​
-                        <li><a href="https://www.cambridgeenglish.org/test-your-english/" target="_blank">Test your English | Cambridge English</a></li>​
-                        <li><a href="https://www.etsglobal.org/pl/en/programme/toeic-tests" target="_blank">Discover the TOEIC® Programme!</a></li>​
-                    </ul>​
-    </div>
-​
-</ol>​
-​
-</div>​
-</div>​
-</div>
+						<div class="col-12 col-lg-6 list-inline-item link-area">​
+							<ul class="link-area-individual">​
+								<h3><i class="fas fa-podcast"></i> Podcasts</h3>​
+								<li><a href="https://www.bbc.co.uk/podcasts?q=english" target="_blank">BBC Podcasts -
+										English</a></li>​
+								<li><a href="https://learnenglish.britishcouncil.org/general-english/podcasts"
+										target="_blank">Podcasts | British Council</a></li>​
+								<li><a href="https://www.podcastsinenglish.com/" target="_blank">Learn and listen to
+										English with podcasts</a></li>​
+							</ul>​
+							​</div>
+						​
+						<div class="col-12 col-lg-6 list-inline-item link-area">​
+							<ul>​
+								<h3><i class="fas fa-blog"></i> Blogs</h3>​
+								<li><a href="https://www.fluentu.com/blog/" target="_blank">FluentU Language
+										Learning</a></li>​
+								<li><a href="https://radiolingua.com/category/blog/" target="_blank">Blog Archives -
+										Coffee Break Languages</a></li>​
+								<li><a href="https://www.englishblog.com/" target="_blank">The English Blog</a></li>​
+							</ul>​
+						</div>​
+						​
+						<div class="col-12 col-lg-6 list-inline-item link-area">​
+							<ul>​
+								<h3><i class="fas fa-video"></i> Videos</h3>​
+								<li><a href="https://learnenglish.britishcouncil.org/general-english/video-zone"
+										target="_blank">Video zone | British Council</a></li>​
+								<li><a href="https://www.youtube.com/channel/UCrbSazjHtYVjpJdm0aZMTGQ"
+										target="_blank">National Geographic Learning - ELT</a></li>​
+								<li><a href="https://www.youtube.com/user/bbclearningenglish" target="_blank">BBC
+										Learning English</a></li>​
+							</ul>​
+						</div>​
+						​
+						<div class="col-12 col-lg-6 list-inline-item link-area">​
+							<ul>​
+								<h3><i class="fas fa-link"></i> References</h3>​
+								<li><a href="https://rm.coe.int/CoERMPublicCommonSearchServices/DisplayDCTMContent?documentId=090000168045bb52"
+										target="_blank">CEFR Scale - English level</a></li>​
+								<li><a href="https://www.cambridgeenglish.org/test-your-english/" target="_blank">Test
+										your English | Cambridge English</a></li>​
+								<li><a href="https://www.etsglobal.org/pl/en/programme/toeic-tests"
+										target="_blank">Discover the TOEIC® Programme!</a></li>​
+							</ul>​
+						</div>
+						​
+					</ol>​
+					​
+				</div>​
+			</div>​
+		</div>
 
 	</section>
 
@@ -274,118 +299,122 @@
 	<section class="container-wrapper wrapper-contact">
 		<div class="row">
 			<div class="col-12">
-				<h2 class="section-title">Contact Me:</h2>
+				<p id="contact" class="section-title">Contact Me:</p>
 			</div>
 		</div>
 
-         <p class="contact-statement"><h3>If you would like to get intouch to discuss more about your requirements please click on the button below</h3></p>
-        
+		<p class="contact-statement">
+			<h3>If you would like to get intouch to discuss more about your requirements please click on the button
+				below</h3>
+		</p>
 
-        <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#enquirymodal">
+
+		<!-- Button trigger modal -->
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#enquirymodal">
   Get In Touch
 </button>
-<!-- Modal -->
-<div class="modal fade" id="enquirymodal" tabindex="-1" role="dialog" aria-labelledby="enquirymodalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h3 class="Contact Form" id="enquirymodalLabel">Thank you for your interest in my classes.</h3>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		<!-- Modal -->
+		<div class="modal fade" id="enquirymodal" tabindex="-1" role="dialog" aria-labelledby="enquirymodalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h3 class="Contact Form" id="enquirymodalLabel">Thank you for your interest in my classes.</h3>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-      </div>
-      <div class="modal-body">
-   
-<form action="#" method="post">
-  <div class="form-group row">
-    <label for="fname" class="col-sm-4">First Name:</label>
-    <div class="col-8">
-      <input type="text" class="form" id="fname" required>
+					</div>
+					<div class="modal-body">
+
+						<form action="#" method="post">
+							<div class="form-group row">
+								<label for="fname" class="col-sm-4">First Name:</label>
+								<div class="col-8">
+									<input type="text" class="form" id="fname" required>
     </div>
-  </div>
-  <div class="form-group row">
-    <label for="lname" class="col-sm-4">Last Name:</label>
-    <div class="col-8">
-      <input type="text" class="form" id="lname" required>
+								</div>
+								<div class="form-group row">
+									<label for="lname" class="col-sm-4">Last Name:</label>
+									<div class="col-8">
+										<input type="text" class="form" id="lname" required>
     </div>
-  </div>
-<div class="form-group row">
-    <label for="email" class="col-sm-4">Email Address:</label>
-    <div class="col-8">
-      <input type="email" class="form" id="email" required>
+									</div>
+									<div class="form-group row">
+										<label for="email" class="col-sm-4">Email Address:</label>
+										<div class="col-8">
+											<input type="email" class="form" id="email" required>
     </div>
-  </div>
-  
-  <div class="form-group row">
-    <div class="col-sm-4">Class Type:</div><br>
-    <div class="col-sm-6">
-      <div class="form-check">
-        <input class="form-check-input form-check-inline" type="checkbox" id="individual">
-        <label class="form-check-label" for="class-type">
+										</div>
+
+										<div class="form-group row">
+											<div class="col-sm-4">Class Type:</div><br>
+											<div class="col-sm-6">
+												<div class="form-check">
+													<input class="form-check-input form-check-inline" type="checkbox" id="individual">
+													<label class="form-check-label" for="class-type">
           Individual
         </label>
-      </div>
-     <div class="form-check">
-        <input class="form-check-input form-check-inline" type="checkbox" id="group">
-        <label class="form-check-label" for="class-type">
+												</div>
+												<div class="form-check">
+													<input class="form-check-input form-check-inline" type="checkbox" id="group">
+													<label class="form-check-label" for="class-type">
           Group
         </label>
-      </div>
-           <div class="form-check form-check-inline">
-        <input class="form-check-input" type="checkbox" id="skype">
-        <label class="form-check-label" for="class-type">
+												</div>
+												<div class="form-check form-check-inline">
+													<input class="form-check-input" type="checkbox" id="skype">
+													<label class="form-check-label" for="class-type">
           Skype
         </label>
-      </div>
-    <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="phone">
-        <label class="form-check-label" for="class-type">
+												</div>
+												<div class="form-check">
+													<input class="form-check-input" type="checkbox" id="phone">
+													<label class="form-check-label" for="class-type">
           Phone
         </label>
-      </div>
+												</div>
 
-    </div>
-  </div>
+											</div>
+										</div>
 
-    <div class="form-group row">
-    <div class="col-sm-4">Current Level:</div><br>
-    <div class="col-sm-6">
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="checkbox" id="beginner">
-        <label class="form-check-label" for="level">
+										<div class="form-group row">
+											<div class="col-sm-4">Current Level:</div><br>
+											<div class="col-sm-6">
+												<div class="form-check form-check-inline">
+													<input class="form-check-input" type="checkbox" id="beginner">
+													<label class="form-check-label" for="level">
           Beginner (A1 / A2)
         </label>
-      </div>
-    <div class="form-check form-check-inline">
-        <input class="form-check-input" type="checkbox" id="intermediate">
-        <label class="form-check-label" for="level">
+												</div>
+												<div class="form-check form-check-inline">
+													<input class="form-check-input" type="checkbox" id="intermediate">
+													<label class="form-check-label" for="level">
           Intermediate (B1 / B2)
         </label>
-      </div>
-            <div class="form-check form-check-inline">
-        <input class="form-check-input" type="checkbox" id="advanced">
-        <label class="form-check-label" for="level">
+												</div>
+												<div class="form-check form-check-inline">
+													<input class="form-check-input" type="checkbox" id="advanced">
+													<label class="form-check-label" for="level">
           Advanced (C1 / C2)
         </label>
-      </div>
-         
-    </div>
-  </div>
+												</div>
 
-<div class="form-group">
-    <label for="exampleFormControlTextarea1">Additional Information:</label>
-    <textarea class="form-control" id="information" rows="3"></textarea>
-  </div>
+											</div>
+										</div>
 
-</form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary">Submit</button>
-      </div>
-    </div>
-  </div>
-</div>
+										<div class="form-group">
+											<label for="exampleFormControlTextarea1">Additional Information:</label>
+											<textarea class="form-control" id="information" rows="3"></textarea>
+										</div>
+
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary">Submit</button>
+					</div>
+				</div>
+			</div>
+		</div>
 
 	</section>
 

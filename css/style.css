@@ -19,6 +19,10 @@ html, body {
     margin: 0;
 }
 
+.mitem a {
+    text-decoration: none;
+}
+
 .mcontainer {
     font-size: 0;
     margin-bottom: 0;
@@ -123,7 +127,7 @@ table.center {
 }
 
 .table {
-    align: center;
+    /*align: center;*/
     border: 3px solid #fff;
 }
 
@@ -190,8 +194,8 @@ tr th {
 
 /*----------------from Bootstrap*/
 
-#reviews {
-    background: url("../images/books1.jpg");
+#review {
+    background: url("../images/reviews-image-1.jpg");
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -201,17 +205,18 @@ tr th {
     min-height: 400px;
     width: auto;
     margin-bottom: 50px;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 
 .review-text {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     text-align: center;
-    color: rgb(0,0,0);
+    color: #ffffff;
     font-style: italic;
     position: relative;
+    opacity: 1;
 }
 
 
@@ -235,7 +240,10 @@ p .review-text {
 
 /*------------------------------------------------------------links*/
 
-
+/*#list-links .link-area {
+    position: relative;
+    overflow: auto;
+}*/
 
 .link-area a {
     color: rgb(64, 71, 75);
@@ -261,6 +269,7 @@ p .review-text {
     height: auto;
     width: auto;
     margin: 0;
+    
 }
 
 .wrapper-links {
@@ -292,9 +301,7 @@ div.modal-footer {
     text-align: center;
 }
 
-.btn-section {
-    
-}
+
 
 .wrapper-contact h3 {
     width: 60%;
@@ -306,6 +313,9 @@ div.modal-footer {
     letter-spacing: 2px;
 }
 
+#list-links {
+    align-content: center;
+}
 
 /*-----------------------------------------------------footer*/
 
