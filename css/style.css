@@ -81,8 +81,11 @@ h5 {
     padding-bottom: 25px;
 }
 
-.round-circle {
-    position: absolute;
+.wrapper-me img {
+    margin: 0 30% 0;
+    width: 40%;
+    height: 40%;
+
 }
 
 .section-title {
