@@ -197,20 +197,19 @@ tr th {
 
 /*----------------from Bootstrap*/
 
-#review {
-    background: url("../images/reviews-image-1.jpg");
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 0 auto;
-    min-height: 400px;
-    width: auto;
-    margin-bottom: 50px;
-    opacity: 0.7;
+
+
+#review img {
+    opacity: 0.5;
 }
 
+/*------------------------------------w3school.co*/
+#review p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .review-text {
     font-size: 20px;
@@ -219,9 +218,8 @@ tr th {
     color: #ffffff;
     font-style: italic;
     position: relative;
-    opacity: 1;
+    width: 295px;
 }
-
 
 .carousel {
     position: static;
@@ -231,11 +229,18 @@ tr th {
 .carousel-item {
     display: flex;
     padding-top: 80px;
+    padding-bottom: 70px;
+    margin-bottom: 50px;
+}
+
+.carousel-item .w-100 {
+    max-height: 630px;
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
     display: none;
 }
+
 p .review-text {
     padding: 200px 40px;
 }
