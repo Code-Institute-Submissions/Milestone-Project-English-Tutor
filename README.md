@@ -41,6 +41,10 @@ CSS3
 
 
 ## Testing:
+
+Tested through the inspection tools in responsive mode and various screen sizes on Firefox, Chrome, Safari and Microsoft Edge.
+As mentioned below in Microsoft Edge there seems to be an aligment issue in the reference section.
+
 ### Navbar -
 Moved through page in sequental order.
 Moved through page in random order
@@ -48,21 +52,18 @@ Moved through page in random order
 ### References -
 Checked that all links links access the correct site and are displayed in a new tab.
 
-<!--##Contact form -
-##Go to the "Contact Us" page
-##Try to submit the empty form and verify that an error message about the required fields appears
-##Try to submit the form with an invalid email address and verify that a relevant error message appears
-##Try to submit the form with all inputs valid and verify that a success message appears.
-##In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.-->
+### Contact form -
+Required fields are first name, last name and email.
+For first and last name message appears when fields are blank.
+For email address message appears if blank and also if not valid email address.
 
 ## Bugs:
-1.In Microsoft Edge layout of the reference section changes to block.
-2.In Microsoft Edge the sumit button is not positioned correctly.
+* In Microsoft Edge layout of the reference section changes to block.
 
 
 ## Deployment:
-Published site: https://hob71.github.io/Milestone-Project-English-Tutor/
-GitHub site: https://github.com/hob71/Milestone-Project-English-Tutor
+* Published site: https://hob71.github.io/Milestone-Project-English-Tutor/
+* GitHub site: https://github.com/hob71/Milestone-Project-English-Tutor
 
 
 ## Credits:
