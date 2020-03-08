@@ -206,7 +206,7 @@ tr th {
 /*------------------------------------w3school.co*/
 #review p {
   position: absolute;
-  top: 45%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   margin-bottom: 0;
@@ -222,6 +222,8 @@ tr th {
     width: 290px;
 }
 
+
+
 .carousel {
     position: static;
     color: transparent;
@@ -234,9 +236,9 @@ tr th {
     margin-bottom: 50px;
 }
 
-.carousel-item .w-100 {
+/*.carousel-item .w-100 {
     height: max-content;
-}
+}*/
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
     display: none;
