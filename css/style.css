@@ -206,9 +206,10 @@ tr th {
 /*------------------------------------w3school.co*/
 #review p {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
+  margin-bottom: 0;
 }
 
 .review-text {
@@ -234,8 +235,7 @@ tr th {
 }
 
 .carousel-item .w-100 {
-    height: max-content;
-    padding: 50px 0;
+    height: auto;
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
@@ -244,7 +244,6 @@ tr th {
 
 p .review-text {
     padding: 200px 40px;
-    margin-bottom: 0;
 }
 
 
