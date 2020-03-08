@@ -204,9 +204,34 @@ tr th {
 }
 
 /*------------------------------------w3school.co*/
+
+
+
+/*--------------------------------------------------------------------------------------------*/
+
 #review p {
   position: absolute;
-  top: 50%;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 0;
+}
+
+.review-text {
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    color: #ffffff;
+    font-style: italic;
+    position: relative;
+    width: 99%;
+}
+/*----------------------------------------------------------------------------------------test*/
+
+*/*
+#review p {
+  position: absolute;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   margin-bottom: 0;
@@ -220,7 +245,7 @@ tr th {
     font-style: italic;
     position: relative;
     width: 290px;
-}
+}*/
 
 
 
@@ -423,4 +448,17 @@ tr td {
 
 .wrapper-contact {
     background-image: linear-gradient(to bottom , rgb(255,255,255), rgb(3, 39, 39));
+}
+
+
+@media screen and (max-width: 992px) {
+.review-text {
+    font-size: 19px;
+    font-weight: 500;
+    text-align: center;
+    color: red;
+    font-style: italic;
+    position: relative;
+    width: 99%;
+}
 }
