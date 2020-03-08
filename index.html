@@ -12,6 +12,13 @@
 	<title>Jeanette-English Tutor</title>
    <style>
 @media screen and (max-width: 992px) {
+body {
+    font-family:  'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 88px;
+}
+
 .review-text {
     font-size: 19px;
     font-weight: 500;
@@ -54,7 +61,7 @@
 		<!--nav end-->
 
 
-		<!--title,quote,background image. Image from upsplash.com-->
+		<!--title,quote,background image. Image from upsplash.com
 		<div class="container-fluid bg-image-books">
 			<div class="row">
 				<div class="col-8">
@@ -62,24 +69,29 @@
 					<p class="title">English Language Tutor</p>
 					<div class="col-8 quote-area d-none d-sm-block">
 						<p class="quote">
-							<i>"One language sets you in a corridor for life. Two languages open every door along the way." <h5>-Frank Smith</h5></i>
-						</p>
+							<i>"One language sets you in a corridor for life. Two languages open every door along the way."<h5>-Frank Smith</h5></i></p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</header>
-	<!--title end-->
+	title end-->
 
+<div class="container-fluid bg-image-books">
+			<div class="row">
+				<div class="col-8">
+					<p id="index.html" class="name">Jeanette Buckley</p>
+					<p class="title">English Language Tutor</p>
+					<div class="col-8 quote-area d-none d-sm-block">
+						<i class="quote">
+							"One language sets you in a corridor for life. Two languages open every door along the way."</i><br><h5><i>-Frank Smith</i></h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
 
 	<!--Section About Me containing image and text-->
-	<!--	<section class="container-wrapper wrapper-me">
-		<div class="row">
-			<div class="col-12">
-				<p id="me" class="section-title">About Me:</p>
-			</div>
-		</div>-->
-
 	<section class="container-wrapper wrapper-me">
 		<div class="row" id="about-me">
 			<div class="col-12">
@@ -87,8 +99,7 @@
 			</div>
 		</div>
 		<div>
-			<img src="images/jbimage.jpg" alt="Photo of Ms Buckley" class="col-12 d-inline-block rounded-circle image-fluid jb-image">
-    </div>
+			<img src="images/jbimage.jpg" alt="Photo of Ms Buckley" class="col-12 d-inline-block rounded-circle image-fluid jb-image"></div>
 
 
 			<div class=" container about-me">
@@ -105,14 +116,10 @@
 					For the past 7 years I have been living in France and for the last 5 I have been teaching
 					English. I am a native English speaker from Manchester England and I teach all levels from A1 to
 					C2 to business men and women, retirees looking to travel, students preparing exams and people
-					who just want to learn for the pleasure of learning.
-				</p>
+					who just want to learn for the pleasure of learning.</p>
 			</div>
-
-
 	</section>
 	<!--About Me end-->
-
 
 	<!--Section Classes and prices, Bootstrap grid code copied and expanded-->
 	<section class="container-wrapper wrapper-classes">
@@ -157,15 +164,10 @@
 		<div class="jumbotron">
 			<p class="alert alert-light" role="alert">
 				<h3><b>Coming Soon:</b></h3>
-				<h4>English Book Club<br>Level A1/A2 and B1/B2</h4>
-			</p>
+				<h4>English Book Club<br>Level A1/A2 and B1/B2</h4></p>
 		</div>
-
-
 	</section>
 	<!--classes end-->
-
-
 
 	<!--section Reviews, carousel fading code copied from Bootstrap with addition of data intervals-->
 	<section class="container-wrapper wrapper-reviews">
@@ -229,7 +231,6 @@
 			</div>
 		</div>
 
-
 		<div class="container">​
 			<div class="row no-gutters">​
 				<div class="col">​
@@ -280,20 +281,13 @@
 								<li><a href="https://www.etsglobal.org/pl/en/programme/toeic-tests"
 										target="_blank">Discover the TOEIC® Programme!</a></li>​
 							</ul>​
-						</div>
-						​
-					</ol>​
-					​
+						</div>​
+					</ol>​​
 				</div>​
 			</div>​
 		</div>
-
 	</section>
-
 	<!--Links end-->
-
-
-
 
 	<!--contact section with button to modal form, modal and form taken from bootstrap-->
 	<section class="container-wrapper wrapper-contact">
@@ -303,10 +297,9 @@
 			</div>
 		</div>
 
-		<p class="contact-statement">
-			<h3>If you would like to get intouch to discuss more about your requirements please click on the button
+		<h3 class="contact-statement">
+			If you would like to get intouch to discuss more about your requirements please click on the button
 				below</h3>
-		</p>
 
 
 		<!-- Button trigger modal -->
@@ -331,93 +324,68 @@
 								<label for="fname" class="col-sm-4">First Name:</label>
 								<div class="col-8">
 									<input type="text" class="form" id="fname" required>
-    </div>
+                                </div>
 								</div>
 								<div class="form-group row">
-									<label for="lname" class="col-sm-4">Last Name:</label>
-									<div class="col-8">
+								    <label for="lname" class="col-sm-4">Last Name:</label>
+								<div class="col-8">
 										<input type="text" class="form" id="lname" required>
-    </div>
-									</div>
-									<div class="form-group row">
-										<label for="email" class="col-sm-4">Email Address:</label>
-										<div class="col-8">
-											<input type="email" class="form" id="email" required>
-    </div>
-										</div>
-
-										<div class="form-group row">
-											<div class="col-sm-4">Class Type:</div><br>
-											<div class="col-sm-6">
-												<div class="form-check">
-													<input class="form-check-input form-check-inline" type="checkbox" id="individual">
-													<label class="form-check-label" for="class-type">
-          Individual
-        </label>
-												</div>
-												<div class="form-check">
-													<input class="form-check-input form-check-inline" type="checkbox" id="group">
-													<label class="form-check-label" for="class-type">
-          Group
-        </label>
-												</div>
-												<div class="form-check form-check-inline">
-													<input class="form-check-input" type="checkbox" id="skype">
-													<label class="form-check-label" for="class-type">
-          Skype
-        </label>
-												</div>
-												<div class="form-check">
-													<input class="form-check-input" type="checkbox" id="phone">
-													<label class="form-check-label" for="class-type">
-          Phone
-        </label>
-												</div>
-
-											</div>
-										</div>
-
-										<div class="form-group row">
-											<div class="col-sm-4">Current Level:</div><br>
-											<div class="col-sm-6">
-												<div class="form-check form-check-inline">
-													<input class="form-check-input" type="checkbox" id="beginner">
-													<label class="form-check-label" for="level">
-          Beginner (A1 / A2)
-        </label>
-												</div>
-												<div class="form-check form-check-inline">
-													<input class="form-check-input" type="checkbox" id="intermediate">
-													<label class="form-check-label" for="level">
-          Intermediate (B1 / B2)
-        </label>
-												</div>
-												<div class="form-check form-check-inline">
-													<input class="form-check-input" type="checkbox" id="advanced">
-													<label class="form-check-label" for="level">
-          Advanced (C1 / C2)
-        </label>
-												</div>
-
-											</div>
-										</div>
-
-										<div class="form-group">
-											<label for="exampleFormControlTextarea1">Additional Information:</label>
-											<textarea class="form-control" id="information" rows="3"></textarea>
-										</div>
-                        
-						<button type="submit" class="btn btn-primary">Submit</button>
-									
-
+                                </div>
+								</div>
+								<div class="form-group row">
+									<label for="email" class="col-sm-4">Email Address:</label>
+								<div class="col-8">
+									<input type="email" class="form" id="email" required>
+                                </div>
+								</div>
+								<div class="form-group row">
+								<div class="col-sm-4">Class Type:</div><br>
+								<div class="col-sm-6">
+								<div class="form-check">
+									<input class="form-check-input form-check-inline" type="checkbox" id="individual">
+									<label class="form-check-label" for="individual">Individual</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input form-check-inline" type="checkbox" id="group">
+									<label class="form-check-label" for="group">Group</label>
+								</div>
+								<div class="form-check form-check-inline">
+									<input class="form-check-input" type="checkbox" id="skype">
+									<label class="form-check-label" for="skype">Skype</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" id="phone">
+									<label class="form-check-label" for="phone">Phone</label>
+								</div>
+								</div>
+								</div>
+								<div class="form-group row">
+								<div class="col-sm-4">Current Level:</div><br>
+								<div class="col-sm-6">
+								<div class="form-check form-check-inline">
+									<input class="form-check-input" type="checkbox" id="beginner">
+									<label class="form-check-label" for="beginner">Beginner (A1 / A2)</label>
+								</div>
+								<div class="form-check form-check-inline">
+									<input class="form-check-input" type="checkbox" id="intermediate">
+									<label class="form-check-label" for="intermediate">Intermediate (B1 / B2)</label>
+								</div>
+								<div class="form-check form-check-inline">
+									<input class="form-check-input" type="checkbox" id="advanced">
+									<label class="form-check-label" for="advanced">Advanced (C1 / C2)</label>
+								</div>
+								</div>
+								</div>
+								<div class="form-group">
+									<label for="information">Additional Information:</label>
+									<textarea class="form-control" id="information" rows="3"></textarea>
+								</div>   
+					        	<button type="submit" class="btn btn-primary">Submit</button>
 						</form>
 					</div>
-
-
 				</div>
 			</div>
 		</div>
-
 	</section>
 
 	<!--footer with social links-->
