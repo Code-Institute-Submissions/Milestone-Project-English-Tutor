@@ -23,7 +23,9 @@ Below are the sections which are incorporated into the website.
 
 'Classes/Prices' - gives an overview of the classes she will teach and the relevent prices.
 
-'Reviews' - shows comments provided by past and present students and the idea is that recommendations for other people says alot.
+'Reviews' - shows comments provided by past and present students and the idea is that recommendations for other people says alot. 
+Background images represent the type of people she has taught. These are business people, colleague student, retired people looking to travel and people who like to learning
+new languages for pleasure.
 
 'References' -  has useful links to podcasts, blog, videos and other useful websites. These are also good sources for learning.
 
@@ -31,7 +33,8 @@ Below are the sections which are incorporated into the website.
 
 
 ## Features Left to Implement:
-1. Change language option.
+* Change language option.
+* Implement php email option.
 
 
 ## Technologies:
@@ -49,6 +52,9 @@ As mentioned below in Microsoft Edge there seems to be an aligment issue in the 
 Moved through page in sequental order.
 Moved through page in random order
 
+### Reviews -
+Review text checked on multiple devices and inspection tool to see best break point for change in font size.
+
 ### References -
 Checked that all links links access the correct site and are displayed in a new tab.
 
@@ -56,6 +62,7 @@ Checked that all links links access the correct site and are displayed in a new 
 Required fields are first name, last name and email.
 For first and last name message appears when fields are blank.
 For email address message appears if blank and also if not valid email address.
+On pressing submit button the 'welcome to mail' box will appear to add an account. Found php code to implement full emailing but did not include as not part of project.
 
 ## Bugs:
 * In Microsoft Edge layout of the reference section changes to block.
