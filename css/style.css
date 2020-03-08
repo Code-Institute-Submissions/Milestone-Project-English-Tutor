@@ -212,13 +212,13 @@ tr th {
 }
 
 .review-text {
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 19px;
+    font-weight: 500;
     text-align: center;
     color: #ffffff;
     font-style: italic;
     position: relative;
-    width: 295px;
+    width: 290px;
 }
 
 .carousel {
@@ -228,13 +228,13 @@ tr th {
 
 .carousel-item {
     display: flex;
-    padding-top: 80px;
+    padding-top: 40px;
     padding-bottom: 70px;
     margin-bottom: 50px;
 }
 
 .carousel-item .w-100 {
-    max-height: 630px;
+    height: max-content;
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
@@ -243,6 +243,7 @@ tr th {
 
 p .review-text {
     padding: 200px 40px;
+    margin-bottom: 0;
 }
 
 
