@@ -12,6 +12,8 @@ html, body {
     overflow-x: hidden;
 }
 
+/*---------------*/
+
 /*-------------------------------------------------------------------------------------------------------header nav title, bootstrap css for image*/
 
 .list-inline-item:not(:last-child) {
@@ -159,6 +161,7 @@ tr th {
 .alert-light {
     background-color: transparent;
     border-color: transparent;
+    margin-top: 18px;
 }
 
 /*------------------------------------------Flashing text from Stackoverflow, SupperSam*/
@@ -178,6 +181,8 @@ tr th {
     to {color: rgb(18, 230, 46);}
 }
 
+/*-----------------*/
+
 .class-grid {
     border: 5px;
     border-color: rgb(3, 39, 39);
@@ -191,6 +196,8 @@ tr th {
     opacity: 0.5;
 }
 
+/*----------------*/
+
 /*------------------------------------w3school.com*/
 
 #review p {
@@ -200,6 +207,8 @@ tr th {
   transform: translate(-50%, -50%);
   margin-bottom: 0;
 }
+
+/*----------------*/
 
 .review-text {
     font-size: 40px;
@@ -398,3 +407,5 @@ tr td {
 .wrapper-contact {
     background-image: linear-gradient(to bottom , rgb(255,255,255), rgb(3, 39, 39));
 }
+
+/*---------------*/
