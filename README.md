@@ -65,7 +65,7 @@ For email address message appears if blank and also if not valid email address.
 On pressing submit button the 'welcome to mail' box will appear to add an account. Found php code to implement full emailing but did not include as not part of project.
 
 ## Bugs:
-* In Microsoft Edge layout of the reference section changes to block.
+* A small bug when clicking Home page does not go straight to the top.
 
 
 ## Deployment:
@@ -79,7 +79,8 @@ Wording for about me section by Jeanette Buckley.
 Wording for reviews section provided by past and present students, first names mentioned under review.
 Images from Upsplash.com for reviews section, photographers were Aaron Burden, Tron Le, Dylan Gillis, Sebastian Herrmann, Elliot Reyna and Nong Vang.
 Image for title from Upslash.com, photographer was Sharon McCutcheon.
+images of flags from IconFinder.com - Vathanx.
 In addition to Technologies sources for some coding from Code Institute (Rosie project), w3schools.com and Stackoverflow.com.
 
 ## Acknowledge:
-### Thank you to Jeanette Buckley for the requirements of the site and Sindhu Kolli for her support, time and mentorship.
+### Thank you to Jeanette Buckley for the requirements of the site, Michel Schmitt for his help in the translation of the page and Sindhu Kolli and Aaron Snig for their support, time and mentorship.
