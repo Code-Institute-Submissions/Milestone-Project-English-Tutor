@@ -131,7 +131,7 @@ h5 {
 
 table.center {
     margin: 30px auto 30px;
-    max-width: 90%;
+    max-width: 65%;
     padding: 20px;
   }
 
@@ -153,7 +153,7 @@ tr th {
 }
 
 .jumbotron {
-    width:60%;
+    width:70%;
     height: auto;
     animation-name: flash;
     animation-duration: 1.4s;
@@ -170,10 +170,6 @@ tr th {
     width: auto;
     text-align: center;
     font-size: 40px;
-}
-
-.jumbotron b {
-    text-align: center;
 }
 
 .jumbotron h4 {
