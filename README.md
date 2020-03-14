@@ -15,6 +15,9 @@ useful links and reviews from past and present students. This will hopefully ach
 The website is designed for students looking to gain additional language skills by hiring Ms Buckley as a tutor and supplying useful links to education material.
 The user can navigate through the website in either french or english and easily pull out the information they need and how to contact Ms Buckley.
 
+Wireframe pdf can be found is available with all files for this project. The pdf shows the original thoughts for layout in mobile and medium/large screen.
+Through disussion with J Buckley some parts have changed.
+
 
 ## Features:
 Below are the sections which are incorporated into the website.
