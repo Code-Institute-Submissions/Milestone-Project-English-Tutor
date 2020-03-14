@@ -110,6 +110,7 @@ h5 {
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
+    margin-top: 16px;
 }
 
 .jbimage {
@@ -161,7 +162,7 @@ tr th {
     animation-direction: alternate;
     animation-play-state: running;
     border-radius: 0.3em;
-    margin: 0 auto 45px;
+    margin: 0 auto;
     padding-top: 30px;
 }
 
