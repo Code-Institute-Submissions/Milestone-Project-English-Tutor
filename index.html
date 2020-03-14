@@ -28,6 +28,14 @@ body {
     position: relative;
     width: 99%;
 }
+
+.wrapper-links > div .row {
+    flex-wrap: wrap;
+}
+.section-title {
+    padding-top: 100px;
+}
+
 }
 </style>
 </head>
@@ -51,7 +59,7 @@ body {
 					<li class="col-4 col-lg-2 list-inline-item li-colour-reviews mitem"><a
 							href="#reviews"><span>Reviews</span></a></li>
 					<li class="col-4 col-lg-2 list-inline-item li-colour-links mitem"><a
-							href="#references"><span>References</span></a></li>
+							href="#references"><span>Links</span></a></li>
 					<li class="col-4 col-lg-2 list-inline-item li-colour-contacts mitem"><a
 							href="#contact"><span>Contact</span></a></li>
 				</ul>
@@ -76,6 +84,7 @@ body {
 	</header>
 
 	<!--Section About Me containing image and text-->
+    <div class="lang-flags"><a href="index.html"><img src="images/uk.png" alt="Union Jack" ></a><a href="index-fr.html"><img src="images/france.png" alt="French flag" class="inline-block"></a></div>
 	<section class="container-wrapper wrapper-me">
 		<div class="row" id="about-me">
 			<div class="col-12">
@@ -84,6 +93,7 @@ body {
 		</div>
 		<div>
 			<img src="images/jbimage.jpg" alt="Photo of Ms Buckley" class="col-12 d-inline-block rounded-circle image-fluid jb-image"></div>
+
 
 
 			<div class=" container about-me">
@@ -212,16 +222,16 @@ body {
 <section class="container-wrapper wrapper-links">
 		<div class="row">
 			<div class="col-12">
-				<p id="references" class="section-title">References:</p>
+				<p id="references" class="section-title">Links:</p>
 			</div>
 		</div>
 
 		<div class="container">​
-			<div class="row no-gutters">​
-				<div class="col">​
+			<!--<div class="row">​
+				<div class="col">​-->
 					<div id="list-links" class="list-inline links-container">
-
-						<div class="col-12 col-lg-6 list-inline-item link-area">​
+<div class="row">
+						<div class="col-sm-12 col-lg-6 list-inline-item link-area">​
 							<ul>​
 								<h3><i class="fas fa-podcast"></i> Podcasts</h3>​
 								<li><a href="https://www.bbc.co.uk/podcasts?q=english" target="_blank">BBC Podcasts -
@@ -233,7 +243,7 @@ body {
 							</ul>​
 							​</div>
 						​
-						<div class="col-12 col-lg-6 list-inline-item link-area">​
+						<div class="col-sm-12 col-lg-6 list-inline-item link-area">​
 							<ul>​
 								<h3><i class="fas fa-blog"></i> Blogs</h3>​
 								<li><a href="https://www.fluentu.com/blog/" target="_blank">FluentU Language
@@ -242,9 +252,11 @@ body {
 										Coffee Break Languages</a></li>​
 								<li><a href="https://www.englishblog.com/" target="_blank">The English Blog</a></li>​
 							</ul>​
-						</div>​
+						</div>
+    </div>                    
+   <div class="row">                     
 						​
-						<div class="col-12 col-lg-6 list-inline-item link-area">​
+						<div class="col-sm-12 col-lg-6 list-inline-item link-area">​
 							<ul>​
 								<h3><i class="fas fa-video"></i> Videos</h3>​
 								<li><a href="https://learnenglish.britishcouncil.org/general-english/video-zone"
@@ -256,7 +268,7 @@ body {
 							</ul>​
 						</div>​
 						​
-						<div class="col-12 col-lg-6 list-inline-item link-area">​
+						<div class="col-sm-12 col-lg-6 list-inline-item link-area">​
 							<ul>​
 								<h3><i class="fas fa-link"></i> References</h3>​
 								<li><a href="https://rm.coe.int/CoERMPublicCommonSearchServices/DisplayDCTMContent?documentId=090000168045bb52"
@@ -267,10 +279,12 @@ body {
 										target="_blank">Discover the TOEIC® Programme!</a></li>​
 							</ul>​
 						</div>​
-					</div>​​
+	
+    </div>  				
+    </div>​​
 				</div>​
-			</div>​
-		</div>
+			<!--</div>​
+		</div>-->
 	</section>
 	<!--Links end-->
 

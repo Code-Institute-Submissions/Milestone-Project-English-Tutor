@@ -84,6 +84,17 @@ h5 {
 
 /*------------------------------------------------------------------------------------------------------------------------about me*/
 
+
+.inline-block {
+   display: inline-block;
+}
+
+.lang-flags img {
+    width: 40px;
+    z-index: 2;
+    margin-left: 50px;
+}
+
 .wrapper-me {
     padding-bottom: 25px;
 }
@@ -97,9 +108,10 @@ h5 {
 .section-title {
     font-family: 'Roboto', sans-serif;
     font-size: 35px;
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 20px;
     text-align: center;
+   /* margin-top: 20px;*/
 }
 
 .jbimage {
@@ -271,7 +283,7 @@ p .review-text {
     background-color: rgb(219, 224, 224);
     border: 1.5px solid rgb(64, 71, 75);
     border-radius: 0.8em;
-    height: auto;
+    min-height: 300px;
     width: auto;
     margin: 0;
 }
@@ -282,6 +294,9 @@ p .review-text {
     padding-bottom: 45px;
 }
 
+.wrapper-links > div .row {
+    flex-wrap: nowrap;
+}
 /*---------------------------------------------------------------------------------------------------------------------contacts*/
 
 button.btn.btn-primary {
@@ -372,7 +387,7 @@ tr td {
 }
 
 .li-colour-home {
-    background-color: rgb(151, 221, 221);
+    background-color: rgb(124, 197, 197);
 }
 
 .li-colour-me {
