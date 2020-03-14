@@ -39,10 +39,10 @@ new languages for pleasure.
 
 
 ## Technologies:
-*Bootstrap 4
-*HMTL 5
-*CSS3
-*Fontawesome.com
+* Bootstrap 4
+* HMTL 5
+* CSS3
+* Fontawesome.com
 
 
 ## Testing:
