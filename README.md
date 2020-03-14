@@ -13,11 +13,13 @@ useful links and reviews from past and present students. This will hopefully ach
 
 ## UX
 The website is designed for students looking to gain additional language skills by hiring Ms Buckley as a tutor and supplying useful links to education material.
-The user can navigate through the website and easily pull out the information they need and how to contact Ms Buckley.
+The user can navigate through the website in either french or english and easily pull out the information they need and how to contact Ms Buckley.
 
 
 ## Features:
 Below are the sections which are incorporated into the website.
+
+'Flags' - allow the user to change the language of the website.
 
 'About Me'- gives you background on who Ms Buckley is, her education and who she teaches.
 
@@ -33,20 +35,22 @@ new languages for pleasure.
 
 
 ## Features Left to Implement:
-* Change language option.
 * Implement php email option.
 
 
 ## Technologies:
- Bootstrap 4
+Bootstrap 4
 HMTL 5
 CSS3
+Fontawesome.com
 
 
 ## Testing:
+Tested through the inspection tools in responsive mode and various screen sizes on Firefox, Chrome, Safari and Microsoft Edge. 
+Additional test on different size andriod devices, iphone 5, ipad mini and ipad.
 
-Tested through the inspection tools in responsive mode and various screen sizes on Firefox, Chrome, Safari and Microsoft Edge.
-As mentioned below in Microsoft Edge there seems to be an aligment issue in the reference section.
+### Language flags - 
+Checked on all devices and browsers mentioned above. Clicked between each language, English to French and French to English.
 
 ### Navbar -
 Moved through page in sequental order.
@@ -55,23 +59,27 @@ Moved through page in random order
 ### Reviews -
 Review text checked on multiple devices and inspection tool to see best break point for change in font size.
 
-### References -
-Checked that all links links access the correct site and are displayed in a new tab.
+### Links -
+Checked that all links access the correct site and are displayed in a new tab. Problem found on Microsoft edge where alignment of boxes did not work.
+On large screen should display two rows of two but instead displayed one column of four and was off center. Code changed and display is correct.
 
 ### Contact form -
 Required fields are first name, last name and email.
 For first and last name message appears when fields are blank.
 For email address message appears if blank and also if not valid email address.
 On pressing submit button the 'welcome to mail' box will appear to add an account. Found php code to implement full emailing but did not include as not part of project.
+Has been added to features to implement.
 
 ## Bugs:
-* A small bug when clicking Home page does not go straight to the top.
+* Clicking Home page does not go straight to the top but part way over the book image.
+* On Safari when dragging the page down white space appears. On release of screen page will go back to navbar.
 
 
 ## Deployment:
 * Published site: https://hob71.github.io/Milestone-Project-English-Tutor/
 * GitHub site: https://github.com/hob71/Milestone-Project-English-Tutor
 
+The code in the deployed version is the same as my gitpod repository.
 
 ## Credits:
 Image quote by Frank Smith.
@@ -84,3 +92,4 @@ In addition to Technologies sources for some coding from Code Institute (Rosie p
 
 ## Acknowledge:
 ### Thank you to Jeanette Buckley for the requirements of the site, Michel Schmitt for his help in the translation of the page and Sindhu Kolli and Aaron Snig for their support, time and mentorship.
+Also like to thank the student care for their support at the end of the project.
