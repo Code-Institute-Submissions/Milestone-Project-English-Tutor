@@ -131,7 +131,7 @@ h5 {
 
 table.center {
     margin: 30px auto 30px;
-    max-width: 65%;
+    max-width: 90%;
     padding: 20px;
   }
 
@@ -170,6 +170,10 @@ tr th {
     width: auto;
     text-align: center;
     font-size: 40px;
+}
+
+.jumbotron b {
+    text-align: center;
 }
 
 .jumbotron h4 {
