@@ -39,10 +39,10 @@ new languages for pleasure.
 
 
 ## Technologies:
-Bootstrap 4
-HMTL 5
-CSS3
-Fontawesome.com
+*Bootstrap 4
+*HMTL 5
+*CSS3
+*Fontawesome.com
 
 
 ## Testing:
@@ -62,6 +62,9 @@ Review text checked on multiple devices and inspection tool to see best break po
 ### Links -
 Checked that all links access the correct site and are displayed in a new tab. Problem found on Microsoft edge where alignment of boxes did not work.
 On large screen should display two rows of two but instead displayed one column of four and was off center. Code changed and display is correct.
+
+### Social links -
+Social links currently go to log in page as J Buckley needs to create the accounts.
 
 ### Contact form -
 Required fields are first name, last name and email.
